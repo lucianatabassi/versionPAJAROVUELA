@@ -24,8 +24,8 @@ public class INTERACCION_TORTUGA : MonoBehaviour
     }
     void Update()
     {
-        //if (Input.GetMouseButtonDown(0))
-       if (Input.GetKey("joystick button 1"))
+        if (Input.GetMouseButtonDown(0))
+       //if (Input.GetKey("joystick button 1"))
         {
             if (!isCarrying)
             {

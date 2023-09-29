@@ -15,7 +15,9 @@ public class CARTEL_FINAL : MonoBehaviour
     public GameObject islaLinda;
 
     public AudioClip musicaFinal;
+    public AudioClip musicaFeliz;
     public AudioSource audioSource;
+    public AudioSource audioSourceFINAL;
     private bool musicaReproducida = false;
 
     private bool desactivarNiebla = false;
@@ -70,6 +72,7 @@ public class CARTEL_FINAL : MonoBehaviour
                 cartelTapado.SetActive(false);
                 islaLinda.SetActive(true);
                 audioSource.PlayOneShot(musicaFinal);
+                audioSource.PlayOneShot(musicaFeliz);
                 musicaReproducida = true;
                 desactivarNiebla = true;
                 animator.SetBool("final", true);

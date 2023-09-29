@@ -11,6 +11,7 @@ TagManager:
   - Pickup
   - newPajaro
   - Tortuga
+  - Zona
   layers:
   - Default
   - TransparentFX
